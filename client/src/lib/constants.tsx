@@ -140,8 +140,8 @@ export const PORTFOLIO_ITEMS = [
   {
     id: "logiflow",
     title: "LogiFlow",
-    tags: "Программное обеспечение, Логистика",
-    image: "https://pixabay.com/get/g06f8d8feb265b16539388060002a5bc53f7915040a95275ea69caa31fabb42ec41c40ae92739869b6ac433e37d8a66dcc1f8c7db3396aa5aabde032b59103f8e_1280.jpg",
+    tags: "Логистика, Автоматизация",
+    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     shortDescription: "Создание комплексного решения для управления логистическими процессами с оптимизацией маршрутов и отслеживанием в реальном времени.",
     fullDescription: "Комплексное программное решение для управления логистическими процессами транспортной компании. Система включает функции планирования маршрутов, отслеживания грузов в реальном времени и оптимизации загрузки транспорта.",
     tasks: [

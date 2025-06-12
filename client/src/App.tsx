@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "next-themes";
 import { AuthProvider } from "@/hooks/use-auth";
 import { WebSocketProvider } from "@/hooks/use-websocket";
+import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import { ProtectedRoute, AdminProtectedRoute } from "@/lib/protected-route";
 
 import NotFound from "@/pages/not-found";
@@ -23,6 +24,9 @@ import Footer from "@/components/Footer";
 
 function Router() {
   const [location] = useLocation();
+  
+  // Автоматическая прокрутка к началу страницы при смене роута
+  useScrollToTop();
   
   // Не показываем Header и Footer на страницах авторизации, дашборда и админки
   const isAuthPage = location === "/auth";
